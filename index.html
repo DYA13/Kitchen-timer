@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@500&display=swap" rel="stylesheet">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <div id="audioParent"></div>
+   <!--   <audio src="sound2.mp3" id="myAudio" autoplay="autoplay" loop="loop" type="audio/mp3"></audio>-->
+
+    <div id="container"> 
+    <header>  
+<h1>Kitchen timer</h1>
+</header>
+<div id="par"> 
+<p id="paragraph">How much time do you need for cooking your dish?</p>
+</div>
+
+<div id="timer"> 
+    <div id="minutesBox"> 
+<label>Minutes</label> 
+<input type="number" placeholder="00" id="minutes" maxlength="3">
+</div>
+<div id="secondsBox">  
+<label>Seconds</label> 
+<input type="number" placeholder="00" id="seconds" maxlength="2">
+</div>
+</div>
+<div id="btn"> 
+<button id="startButton">START</button>
+</div>
+
+<div class="container_countdown">
+<p id="countdown">00:00</p>
+</div>
+
+
+<img src="pot.gif" width="280" height="280" frameBorder="0" alt="">
+</div>
+
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
